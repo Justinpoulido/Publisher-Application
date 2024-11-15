@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
         // Configure the MQTT client as you showed us in the lab
         client = Mqtt5Client.builder()
             .identifier(UUID.randomUUID().toString())
-            .serverHost("broker-816034662.sundaebytestt.com")
+            .serverHost("broker-816034633.sundaebytestt.com")
             .serverPort(1883)
             .build()
             .toBlocking()
